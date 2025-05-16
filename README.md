@@ -16,31 +16,31 @@
 
 ## Installation
 
-### Backend Setup
+### Backend Setup 
 
-1. **Clone the Repository** :
+1. **Clone the Repository** :<br>
    git clone <repository-url><br>
    cd board/data_dashboard<br>
-2. **Create and Activate a Virtual Environment**:
+2. **Create and Activate a Virtual Environment**:<br>
     python -m venv env<br>
     source env/bin/activate    # On Windows: env\Scripts\activate<br>
     pip install django djangorestframework django-filter django-cors-headers<br>
-3.**Run Migrations:**
+3.**Run Migrations:**<br>
     python manage.py makemigrations<br>
     python manage.py migrate<br>
-4.**Load Data from JSON:**
+4.**Load Data from JSON:**<br>
     python load_data.py<br>
-5.**Start the Django Server:**
+5.**Start the Django Server:**<br>
     python manage.py runserver<br>
     The API should now be accessible at http://127.0.0.1:8000/api/data/.<br>
 
-### Frontend Setup
-1.**Navigate to the Frontend Folder:**
+### Frontend Setup 
+1.**Navigate to the Frontend Folder:**<br>
   cd ../dashboard-frontend<br>
   Install Frontend Dependencies:<br>
   npm install<br>
   npm install axios bootstrap react-bootstrap chart.js react-chartjs-2 react-circular-progressbar<br>
-2.**Start the React App:**
+2.**Start the React App:**<br>
   npm start
  
 
